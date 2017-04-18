@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+body{
+	font-family: Ubuntu;
+	color: #005;
+	background-color: #F8FBFE;
+}
+h1, h2, h3, h4, h5, h6{
+	line-height: 0.25em;
+}
+div.resume{
+	text-align: center;
+}
+img.logo{
+	width: 100px;
+	height: 100px;
+	background-size: cover;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+}
+hr{
+    background-color: #D8DBDE;
+    color: #D8DBDE;
+    border: solid 1px #D8DBDE;
+	margin: 0;
+	padding: 0;
+}
