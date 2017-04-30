@@ -1,18 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 body{
-	font-family: Ubuntu;
+	font-family: Ubuntu thin;
 	color: #005;
 	background-color: #F8FBFE;
 }
 h1, h2, h3, h4, h5, h6{
 	line-height: 0.25em;
+	font-weight: normal;
 }
 div.resume{
 	text-align: center;
 }
-img.logo{
-	width: 100px;
-	height: 100px;
+img.round{
 	background-size: cover;
 	border-radius: 100px;
 	-webkit-border-radius: 100px;
@@ -24,4 +23,24 @@ hr{
     border: solid 1px #D8DBDE;
 	margin: 0;
 	padding: 0;
+}
+ul.bar{
+	list-style-type: none;
+	margin: 0.25em;
+	padding: 0.25em;
+}
+li.bar{
+	margin: 0;
+	padding: 0;
+}
+.button {
+    width: 115px;
+    height: 25px;
+    background: #D8DBDE;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+	font-style: none;
 }
