@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-1.5.1.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="mystyle.css">
-
+		<script type="text/javascript">
+			function fnInit(){
+				$('#replace').load('page.html');
+				alert('hello');
+			}
+		</script>
 	</head>
-	<body><!--
+	<body onload='fnInit()'><!--
 		<div style="text-align:center">
 			<img class="round" src="logo.png" style="width:100px; height:100px;">
 			<h1><strong>James S. Garcia</strong></h1>
@@ -26,6 +32,9 @@
 			</div>
 		</div><hr style="height:3px"/>
 	-->
+	<div id='replace'>
+		shouldn't be here
+	</div>
 	<div style='text-align:center'>
 		Oh hey there, <br/>
 		We are still under construction. <br/>
